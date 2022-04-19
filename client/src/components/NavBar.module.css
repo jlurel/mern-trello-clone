@@ -1,0 +1,61 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  background-color: #026aa7;
+  color: #fff;
+  overflow: hidden;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
+.nav_links {
+  display: flex;
+  align-items: center;
+  margin: 0 2rem;
+}
+
+.nav_link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.nav_link:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.nav_link_label {
+  font-size: 1rem;
+  margin-right: 5px;
+}
+
+.nav_link_icon svg {
+  height: 1rem;
+  width: 1rem;
+}
+
+.filling_div {
+  flex-grow: 1;
+}
+
+.button {
+  padding: 0.7rem 5px;
+  font-size: 0.9rem;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+}
+
+.logout_button {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #ffffff;
+}

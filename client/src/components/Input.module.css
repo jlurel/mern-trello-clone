@@ -1,0 +1,20 @@
+.input {
+  width: 100%;
+  margin: 0.5rem 0;
+  padding: 1rem 0.25rem;
+  font-size: 1rem;
+  background-color: #fafbfc;
+  border: 2px solid #dfe1e6;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.error {
+  color: #e53e3e;
+  font-size: 12px;
+}
+
+.label {
+  margin-top: 1rem;
+  font-weight: bold;
+}
